@@ -330,20 +330,22 @@ input:checked + .slider:before {
   height: auto;
   min-height: 100vh;
   width: 100%;
-  /* padding: 0; */
-  /* margin: 0; */
-  /* background-color:rgba(50,207,225,1); */
   background: url('../assets/img/download.svg') no-repeat  left center; 
   background-size: cover;
 }
 .jumbotron .container{
   background: rgba(50,207,225,1);
-  margin-top: -70px;
+
 }
 .jumbotron .container:hover{
   color: white !important;
 }
 
+@media only screen and (max-width:768px){
+  .jumbotron .container{
+    margin-top: -40px;
+  }
+}
 
 
 #btn_jumbotron:hover{
