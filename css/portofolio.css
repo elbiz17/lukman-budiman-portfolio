@@ -330,8 +330,8 @@ input:checked + .slider:before {
   height: auto;
   min-height: 100vh;
   width: 100%;
-  /* padding: 0; */
-  margin: 0;
+  padding: 0;
+  /* margin: 0; */
   /* background-color:rgba(50,207,225,1); */
   background: url('../assets/img/download.svg') no-repeat  left center; 
   background-size: cover;
