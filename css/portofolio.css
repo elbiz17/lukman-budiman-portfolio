@@ -341,11 +341,11 @@ input:checked + .slider:before {
   color: white !important;
 }
 
-/* @media only screen and (max-width:768px){
+@media only screen and (max-width:768px){
   .jumbotron .container{
-    margin-top: -40px;
+    margin-top: -80px;
   }
-} */
+}
 
 
 #btn_jumbotron:hover{
